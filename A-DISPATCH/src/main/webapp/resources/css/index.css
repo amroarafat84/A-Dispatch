@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+h1{
+	color:blue;
+	text-align: center;
+	size: 34;
+	font-family: sans-serif;
+}
+body{
+	background-color: silver;
+}
+form{
+	text-align: center;
+}
+div{
+	text-align: center;
+}
+img{
+	border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+}
+#btn{
+	border-bottom-color: red;
+	font-family: sans-serif;
+}
