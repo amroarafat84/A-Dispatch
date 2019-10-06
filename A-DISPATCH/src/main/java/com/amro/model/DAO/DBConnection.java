@@ -25,7 +25,7 @@ public class DBConnection {
        String url = "jdbc:mysql://74.105.110.43:3306/adispatch";
         try{
            Class.forName("com.mysql.jdbc.Driver");
-           connection = (Connection) DriverManager.getConnection(url,"root","123asd");
+           connection = (Connection) DriverManager.getConnection(url);
            System.out.println("Connected");
        }catch(SQLException ex){
            System.out.println("not connected");
